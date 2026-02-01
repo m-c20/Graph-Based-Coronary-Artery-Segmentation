@@ -1,3 +1,14 @@
-This repository provides a Python implementation of the VesselWalker algorithm for coronary artery segmentation in 2D X-ray angiograms. The approach revisits a traditional graph-based vessel tracking method, emphasizing computational efficiency and interpretability in contrast to deep learning–based segmentation techniques.
+Coronary Artery Segmentation Using a Graph-Based Method
+Overview
 
-The pipeline includes image preprocessing for contrast normalization and noise reduction, followed by vessel segmentation and quantitative evaluation against ground-truth annotations. Performance is assessed using Dice score, sensitivity, and specificity, and results are compared with the original MATLAB implementation for validation.
+This repository contains a Python implementation of VesselWalker, a traditional graph-based algorithm for coronary artery segmentation in 2D X-ray angiograms. The project revisits a non–deep learning approach to vessel segmentation, emphasizing computational efficiency, interpretability, and reproducibility.
+
+The implementation is evaluated on a large, publicly available coronary angiography dataset and compared against ground-truth annotations as well as the original MATLAB implementation.
+
+Method
+
+The core segmentation method is based on the VesselWalker algorithm, which models vessel extraction as a graph traversal problem. Unlike deep learning approaches, this method does not require training data and provides transparent decision-making at each step of the segmentation process.
+
+Dataset
+
+Experiments are conducted using a publicly available coronary angiography dataset. The dataset is chosen for its size, annotation quality, and accessibility. Ground-truth vessel annotations are used for quantitative evaluation.
