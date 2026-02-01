@@ -1,6 +1,6 @@
 # Graph-Based Coronary Artery Segmentation in X-Ray Angiography
 **Project Proposal COMP396**  
-**Author:** Mert Cezar (261166600)
+**Author:** Mert Cezar 
 
 ---
 
